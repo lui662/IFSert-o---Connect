@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../style/styles.css">
+    <title>ChatBot IFSertao Connect</title>
+</head>
+
+<body>
+    <nav>
+        <div class="bordaDaDiv">
+            <img src="../img/logo.png" alt="IfSertao PE">
+            <button class="buttonStyle" style="background-color: red;
+                       color: white;" onclick="apagarHistorico()" type="button">
+                Excluir Historico
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <p id="div-carregando">
+        </p>
+        <div id="historico">
+        </div>
+    </main>
+
+    <footer>
+        <div id="footStyle">
+            <input placeholder="Digite suas duvidas" type="text" name="input" id="inputStyle">
+            <button id="btn-enviar" class="buttonStyle" onclick="receberMensagem()" type="button">
+                Enviar
+            </button>
+        </div>
+        <p id="styleCopy">
+            &copy; IFSertao Connect - 2025
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>

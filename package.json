@@ -1,0 +1,26 @@
+{
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "nodemon src/api/server.js",
+    "parcel-start": "parcel index.html",
+    "parcel-build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "@google/genai": "^0.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "seu-projeto": "file:"
+  }
+}

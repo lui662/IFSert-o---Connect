@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #0a5517;
+    --white: #FFFF;
+    --green2: #98FB98;
+    --lima: #00FF00;
+    --black: #000
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../img/background.png");
+    background-position: center;
+}
+
+@media screen and (max-width: 1034px) {
+    body{
+        background-size: 100%;
+    }
+}
+
+.bordaDaDiv {
+    display: flex;
+    background-color: var(--green);
+    padding: 0.625rem;
+    width: 100%;
+    height: 6.25rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 10.625rem;
+    height: auto;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    position: absolute;
+    top: 6.25rem; /* mesma altura da nav */
+    bottom: 6.90rem; /* altura do footer + margem */
+    width: 100%;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+
+    padding: 1rem;
+    background-color: var(--green);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#inputStyle{
+    padding: 0.625rem;
+    border-radius: 8px;
+    width: 90%;
+    border: none;
+    background-color: var(--white);
+    outline: none;
+    font-size: 1rem;
+}
+.buttonStyle{
+    padding: 0.625rem;
+    background-color: var(--green2);
+    color: var(--black);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.buttonStyle:hover{
+    background-color: var(--lima);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+#footStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#styleCopy{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--white);
+}
+
+@media screen and (max-width: 1034px) {
+    #footStyle{
+         gap: 10px;
+    }
+}
+
+#div-carregando{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carregando-img{
+    width: 60px;
+    height: auto;
+}
+
+/* No seu arquivo ../style/styles.css */
+
+/* Estilos para o contêiner do histórico (se precisar) */
+#historico {
+    flex: 1; /* Permite que o histórico ocupe o espaço disponível */
+    padding: 10px;
+    overflow-y: auto; /* Adiciona scroll se o conteúdo for muito grande */
+    display: flex; /* Para alinhar as mensagens em coluna */
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre as mensagens */
+    padding-bottom: 20px; /* Para não ficar colado no footer */
+}
+
+/* Estilos para a caixa da minha mensagem */
+.box-minhas-mensagem {
+    display: flex;
+    justify-content: flex-end; /* Alinha a mensagem do usuário à direita */
+    max-width: 80%; /* Limita a largura da caixa de mensagem */
+    align-self: flex-end; /* Garante que a caixa fique à direita no flex container */
+}
+
+.minha-mensagem {
+    background-color: var(--green); /* Cor de fundo da sua mensagem */
+    color: var(--white); /* Cor do texto da sua mensagem */
+    padding: 10px 15px;
+    border-radius: 20px 20px 5px 20px; /* Bordas arredondadas (top-left top-right bottom-right bottom-left) */
+    word-wrap: break-word; /* Quebra palavras longas */
+    max-width: 100%; /* Garante que o texto não exceda a caixa */
+}
+
+/* Estilos para a caixa de resposta do chat */
+.box-resposta-do-chat {
+    display: flex;
+    justify-content: flex-start; /* Alinha a mensagem do bot à esquerda */
+    max-width: 80%; /* Limita a largura da caixa de mensagem */
+    align-self: flex-start; /* Garante que a caixa fique à esquerda no flex container */
+}
+
+.resposta-mensagem {
+    background-color: #e0e0e0; /* Cor de fundo da mensagem do bot */
+    color: var(--black); /* Cor do texto da mensagem do bot */
+    padding: 10px 15px;
+    border-radius: 20px 20px 20px 5px; /* Bordas arredondadas */
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align: justify;
+}
+
+.resposta-mensagem ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.resposta-mensagem ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.minha-mensagem, .resposta-mensagem {
+    white-space: pre-line;
+}
