@@ -1,1 +1,34 @@
-{}
+{
+  "luiz": [
+    {
+      "mensagem": "Ola",
+      "resposta": "Olá! Eu sou o IFSertao Connect, o assistente virtual do Campus Salgueiro do IFSertãoPE. Como posso ajudar você hoje?\n",
+      "timestamp": "2025-06-07T21:29:25.515Z"
+    },
+    {
+      "mensagem": "quais os cursos disponiveis no if",
+      "resposta": "Olá!  No IFSertãoPE - Campus Salgueiro, estão disponíveis os seguintes cursos:\n\n**Ensino Médio Integrado:** Agropecuária, Edificações, Informática.\n\n**Técnico Subsequente:** Agropecuária (manhã e tarde), Edificações (noite).\n\n**Graduação:** Tecnologia em Alimentos, Licenciatura em Física, Sistemas para Internet, Engenharia Civil.\n\n**Formação Inicial e Continuada (FIC):** Iniciação ao Xadrez, Costureira de Máquina Reta e Overloque, Manicure e Pedicure, Padeira, Salgadeira.  Atualmente, há inscrições abertas para o curso de Iniciação ao Xadrez e  o curso \"Seja Empreendedor\" teve suas inscrições prorrogadas (mas verifique a data limite no edital, pois esta informação pode ser dinâmica).\n",
+      "timestamp": "2025-06-07T21:29:34.700Z"
+    },
+    {
+      "mensagem": "Esta aberto as inscrições para o curso \"Sistemas para internet\" ?",
+      "resposta": "Olá!  Não encontrei informações sobre inscrições abertas para o curso de Sistemas para Internet no conteúdo fornecido do site do IFSertãoPE - Campus Salgueiro.  Para verificar a disponibilidade de vagas e datas de inscrições para este curso, recomendo consultar diretamente o site do IFSertãoPE ou entrar em contato com o campus Salgueiro pelos canais de comunicação disponíveis.\n",
+      "timestamp": "2025-06-07T21:30:22.684Z"
+    },
+    {
+      "mensagem": "Esta aberto algum curso aberto?",
+      "resposta": "Olá! Sim, atualmente há inscrições abertas para o curso FIC de Iniciação ao Xadrez.  As inscrições para o curso FIC \"Seja Empreendedor\" foram prorrogadas, porém,  é necessário verificar a data limite no edital, pois esta informação pode ser alterada.  Para mais detalhes sobre estes e outros cursos e processos seletivos, recomendo acessar o site do IFSertãoPE - Campus Salgueiro.\n",
+      "timestamp": "2025-06-07T21:30:57.130Z"
+    },
+    {
+      "mensagem": "Qual a data de inscrição ?",
+      "resposta": "Olá! Para responder sua pergunta sobre a data de inscrição, preciso saber para qual curso você está se referindo.  Atualmente, estão abertas inscrições para o curso FIC de Iniciação ao Xadrez (até 8 de junho) e o curso FIC \"Seja Empreendedor\" (verifique a data limite no edital, pois a data de prorrogação  pode ter mudado).  Por favor, especifique o curso desejado para que eu possa fornecer a data correta de inscrição.\n",
+      "timestamp": "2025-06-07T21:31:30.943Z"
+    },
+    {
+      "mensagem": "O FIC de xadrez",
+      "resposta": "Olá! O curso FIC de Iniciação ao Xadrez tem inscrições abertas até o dia 8 de junho de 2025.\n",
+      "timestamp": "2025-06-07T21:31:50.330Z"
+    }
+  ]
+}

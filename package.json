@@ -17,10 +17,11 @@
     "parcel": "^2.14.4"
   },
   "dependencies": {
-    "@google/genai": "^0.13.0",
+    "@google/genai": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.21.2",
+    "openai": "^5.1.1",
     "seu-projeto": "file:"
   }
 }
